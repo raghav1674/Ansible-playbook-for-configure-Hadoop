@@ -47,7 +47,7 @@
     shell: "jps | grep Node"
     register: hadoop_svc
     changed_when: false
-    ignore_errors: false 
+    ignore_errors: true 
 
 
   - name: start the hadoop {{ node_type }}node  service 
