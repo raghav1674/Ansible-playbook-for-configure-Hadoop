@@ -1,0 +1,6 @@
+dir_path: /nn
+
+node_type: name
+
+namenode_ip: 0.0.0.0
+
